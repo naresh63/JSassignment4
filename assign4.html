@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JS assign 4</h1>
+    <script>
+      //1.Create a function that takes a number (step) as an argument and returns the number of matchsticks in that step. See step 1, 2 and 3 in the image above
+      function matchHouse(n) {
+        if (n > 0) {
+          let a;
+          a = 5 * n + 1;
+          return a;
+        } else {
+          console.log("num is not valid");
+        }
+      }
+      let findResult = matchHouse(4);
+      console.log(findResult);
+    </script>
+  </body>
+</html>
